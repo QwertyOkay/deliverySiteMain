@@ -118,8 +118,9 @@
     </div>
 
     <div class="header__imgBox">
-        <a href="{offer}"><img src="./images/TelegramApp.png" alt="Telegram"></a>
-        <a href="https://wa.me/79997266350"><img src="./images/WhatsApp.png" alt="WhatsApp"></a>
+        <a href="https://t.me/Delivery_company_job_bot/"><img src="./images/TelegramApp.png" alt="Telegram"></a>
+        <!-- <a href="https://wa.me/79997266350"><img src="./images/WhatsApp.png" alt="WhatsApp"></a> -->
+        <a href="https://api.whatsapp.com/send/?phone=17652321442&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82,%20%D0%B1%D0%BE%D1%82&type=phone_number&app_absent=0"><img src="./images/WhatsApp.png" alt="WhatsApp"></a>
     </div>
 
     <!-- Слайдер -->
