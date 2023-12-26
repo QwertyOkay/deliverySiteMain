@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/intlTelInput.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/slider.css">
-    <title>Работа в твоем городе!</title>
+    <title>QWERTY - Работа в твоем городе!</title>
 
     <style>
         footer {
@@ -31,18 +31,22 @@
             background: rgba(0, 0, 0, 0.5);
             align-items: center;
             justify-content: center;
+            overflow: scroll;
         }
 
-        .modal-content {
+        .modal-content2 {
             background-color: white;
-            padding: 20px;
+            padding: 20px 40px;
             border-radius: 5px;
             text-align: left;
+            height: 500px;
+            overflow: scroll;
         }
 
         .close-button {
             float: right;
             font-size: 1.5em;
+            margin-left: 15px;
         }
 
         .logo-section,
@@ -73,7 +77,7 @@
                     <a class="nav-link" href="#faq">Как это работает</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">Контакты</a>
+                    <a class="nav-link" href="#footer">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -381,7 +385,7 @@
             </div>
 
             <div class="form-text">
-                <p>Заполняя форму, я принимаю условия передачи информации</p>
+                <p>Заполняя форму, я принимаю условия передачи информации, указанные в "Политике безопасности"</p>
                 <button class="form-button submit-button" type="submit" disabled="">Продолжить</button>
             </div>
 
@@ -394,27 +398,74 @@
 
     </section>
 
-    <footer>
+    <footer id="footer">
         <div class="footer-container">
             <div class="logo-section">
-                <img src="./images/Logo.jpeg" alt="Логотип" style="width: 100px;
-    border-radius: 50px;">
+                <img src="./images/Logo.jpeg" alt="Логотип" style="width: 100px;border-radius: 50px;">
             </div>
             <div class="contacts-section">
-                <p>Телефон: +1 765-232-1442</p>
-                <p>Email: getintouch@deliverycompany.info</p>
-                <p>Киев, Садовая 156, 0200</p>
+                <p><strong>Телефон: </strong> +1 765-232-1442</p>
+                <p><strong>Email: </strong> getintouch@deliverycompany.info</p>
+                <p><strong>Киев, Садовая 156, 0200</strong></p>
             </div>
             <div class="policy-section">
-                <button id="openModal">Политика безопасности</button>
+                <button id="openModal" class="btn-info" style="border-radius: 4px; outline: none;padding: 5px 15px;">Политика безопасности</button>
             </div>
+            <p><strong>QWERTY</strong> Deliverycompany.info @ 2022 - 2023</p>
+            <p>Все права защищены</p>
         </div>
 
         <modal id="policyModal" class="modal">
-            <div class="modal-content">
-                <span class="close-button" id="closeModal">&times;</span>
-                <h2>Политика безопасности</h2>
-                <p>Здесь будет текст политики безопасности...</p>
+            <div class="modal-content2">
+                <span class="close-button" style="cursor: pointer;" id="closeModal">&times;</span>
+                <h3>Политика Безопасности "QWERTY" - Delivery Company"</h3>
+                <p>
+                    <strong>**1. Описание Бизнеса:**</strong>
+                    Наша компания специализируется на предоставлении услуг по поиску курьеров для различных задач. Мы
+                    обеспечиваем связь между клиентами и профессиональными курьерами, предлагая надежные и эффективные
+                    решения для доставки.
+                   </p>
+                    <p><strong>**2. Контактная Информация:**</strong>
+                    Адрес: ул. Садовая 156, Киев, 0200, Украина,
+                    Телефон: +1 765-232-1442,
+                    Электронная почта: getintouch@deliverycompany.info</p>
+
+                    <p><strong>**3. Политика Конфиденциальности:**</strong>
+                    Мы придерживаемся строгих стандартов конфиденциальности для защиты личных данных наших клиентов и
+                    курьеров. Вся собиранная информация используется исключительно для улучшения качества наших услуг и
+                    не распространяется третьим лицам без вашего согласия.</p>
+
+                    <p><strong>**4. Условия Предоставления Услуг:**</strong>
+                    При использовании наших услуг вы соглашаетесь с нашими условиями предоставления услуг, включая
+                    соблюдение всех применимых законов и правил.</p>
+
+                    <p><strong>**5. Соблюдение Законов:**</strong>
+                    Мы гарантируем соблюдение всех местных и международных законов, включая законы о защите данных и
+                    рекламе.</p>
+
+                    <p><strong>**6. Правила Пользования:**</strong>
+                    Подробные правила пользования нашими услугами доступны на нашем сайте и должны быть приняты перед
+                    началом их использования.</p>
+
+                    <p><strong>**7. Информация о Лицензиях и Разрешениях:**</strong>
+                    Мы обладаем всеми необходимыми лицензиями и разрешениями для осуществления нашей деятельности,
+                    информация о которых доступна по запросу.</p>
+
+                    <p><strong>**8. Ответственность:**</strong>
+                    Мы берем на себя ответственность за качество предоставляемых услуг в соответствии с нашими условиями
+                    и политикой.</p>
+
+                    <p><strong>**9. Правила и Условия Акций и Конкурсов:**</strong>
+                    Все акции и конкурсы проводятся в соответствии с четко определенными правилами и условиями,
+                    доступными на нашем сайте.</p>
+
+                    <p><strong>**10. Интеллектуальная Собственность:**</strong>
+                    Мы уважаем права интеллектуальной собственности и не используем чужой контент без соответствующего
+                    разрешения.</p>
+
+                    <p><strong>**11. Прозрачность и Честность:**</strong>
+                    Мы придерживаемся принципов прозрачности и честности в своей коммерческой практике и избегаем
+                    вводящей в заблуждение информации.</p>
             </div>
         </modal>
     </footer>
